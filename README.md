@@ -22,3 +22,24 @@ devbabu
 ```sh
 AWSCodeCommitPowerUser
 ```
+
+Step 4 - Now click on your user --> security credentials, look for HTTPS GIT CRE.... and click Generate Credentials.
+
+Step 5 - Now click Download Credentials.
+
+Step 6 - Launch an Linux-Instance For Terminal.
+
+Step 7 - Now we need to clone our My-app repo locally.
+
+```sh
+sudo su -
+mkdir aws
+cd aws/
+yum install git -y
+```
+git clone < CodeCommit Repo Url >
+
+```sh
+cd myapp/
+vi index.html
+```
