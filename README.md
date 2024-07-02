@@ -40,6 +40,15 @@ yum install git -y
 git clone < CodeCommit Repo Url >
 
 ```sh
-cd myapp/
+cd my-app/
 vi index.html
+```
+
+Step 8 - Now We need to Push our Index.html into CodeCommit Repository
+
+```sh
+git status
+git add .
+git commit -m "my html file"
+git push origin master
 ```
