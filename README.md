@@ -7,3 +7,7 @@ Step 2 - Now create a repository, by giving some name & description.
 ```sh
 my-app
 ```
+
+```sh
+This is my codecommit repository
+```
